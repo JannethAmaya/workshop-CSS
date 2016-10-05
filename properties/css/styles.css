@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  font-family: 'Helvetica';
+  padding: 0;
+}
+
+
+/*shorthand*/
+.top-image {
+
+  background-image: url('../images/food.jpg');
+  background-color: #42516f;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /*background: #42516f url('../images/food.jpg') no-repeat center;*/
+
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-image h1 {
+  color: white;
+  margin: 0;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+
+/*em*/
+.parent {
+  font-size: 100px;
+  margin: 10px; 
+}
+
+.child {
+  width: 2em;
+  height: 2em;
+  background-color: #42516f;
+  padding: 10px;
+  color: white;
+}

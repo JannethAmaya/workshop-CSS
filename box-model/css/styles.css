@@ -1,0 +1,13 @@
+.center {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.square {
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+  border: 5px solid orange;
+  padding: 20px;
+  margin: 10px auto;
+}

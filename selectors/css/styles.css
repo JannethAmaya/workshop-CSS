@@ -1,0 +1,171 @@
+/*General*/
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.list {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.list li {
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,0.3);
+}
+
+
+menu {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+menu a {
+  color: white;
+  padding: 5px 20px;
+  border-right: 1px solid white;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  width: 100%;
+}
+
+.login {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.login .field {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+.attrs a{
+  display: inline-block;
+}
+body {
+  font-family: 'Helvetica';
+}
+* {
+  box-sizing: border-box;
+}
+
+
+/*Basic*/
+
+
+#wrapper {
+  background-color: #e54800;
+  padding: 10px;
+}
+
+#other-thing {
+  background-color: #564390;
+  padding: 10px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.square.radius {
+  border-radius: 10px;
+}
+
+
+#wrapper .square {
+  background-color: hotpink;
+}
+
+#other-thing, .square {
+  border: 5px dotted white;
+}
+
+
+/*Medium*/
+
+div > p {
+  font-size: 20px;
+}
+
+[target=_blank] {
+  color: blue;
+  font-size: 30px;
+}
+
+a[href$=".pdf"] {
+  color: red;
+}
+
+a[href^="https"] {
+  color: green;
+  background-color: whitesmoke;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid green;
+  border-radius: 3px;
+}
+
+a[href*="nearsoft"] {
+  color: #e54800;
+  background-color: whitesmoke;
+  padding: 20px;
+  font-size: 30px;
+  border: 1px solid gray;
+}
+
+
+/*Advanced*/
+
+menu a:last-child {
+  border-right: 0px;
+}
+
+menu a:hover {
+  background-color: white;
+  color: black;
+}
+
+input:focus {
+  border: 1px solid gray;
+  outline: none;
+}
+
+.list li:nth-child(odd) {
+  background-color: gray;
+  color: white;
+}
+
+.list li:nth-child(odd) {
+  background-color: whitesmoke;
+  color: black;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.list li:first-child {
+  border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+.first p::first-line {
+  color: orange;
+}
+
+.first p::first-letter {
+  font-size: 30px;
+  color: gray;
+  background-color: pink;
+}

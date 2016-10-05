@@ -1,0 +1,21 @@
+body {
+  font-family: "Helvetica";
+  margin: 0px;
+  padding: 0px;
+  padding-top: 50px;
+}
+
+.square {
+  background-color: #ffd6e2;
+  width: 300px;
+  border: 1px solid #ce1956;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+p {
+  color: #42516f;
+  text-decoration: none;
+  line-height: 24px;
+}

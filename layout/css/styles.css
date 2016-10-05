@@ -1,0 +1,60 @@
+.row {
+  display: block;
+  width: 70%;
+  margin: 50px auto;
+  padding: 20px;
+}
+img {
+  width: 300px;
+}
+
+
+/*Float*/
+
+.float-left img {
+  float: left;
+}
+
+
+.float-right img {
+  float: right;
+}
+
+.no-clear {
+  padding: 10px;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.no-clear .square {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  margin: 5px;
+}
+
+
+/*Display*/
+
+.row p {
+  padding: 10px;
+}
+
+.inline p {
+  background-color: orange;
+  display: inline;
+}
+
+.block p {
+  background-color: pink;
+  display: block;
+}
+
+.inline-block p {
+  background-color: hotpink;
+  display: inline-block;
+}
+
+
+/*Flex box*/
